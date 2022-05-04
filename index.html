@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Georgia Center for Nonprofits</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,800&display=swap" rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet">
+        <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+        <!--[if lt IE 9]>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <nav>
+            <div style="background-color: black; padding: 0.2em 0em">
+                <div class="inline-section aligned-right" style="color: white; font-size: 0.875rem;">
+                    <ul>
+                        <li class="nav-list"><a style="color:white !important;" href="./404.html" data-descr="Login">Login</a></li>
+                        <li class="nav-list"><a style="color:white !important;" href="./404.html" data-descr="Become a Member">Become a Member</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="background-color: white">
+                <div class="inline-section navbar">
+                    <a href="./index.html"><img src="images/logo.png" alt="Logo of Georgia Center for Nonprofits" style="width:19rem"></a> 
+                    <ul>
+                        <li class="nav-list"><a href="./404.html" data-descr="About Us">About Us</a></li>
+                        <li class="nav-list"><a href="./resources.html" data-descr="Resources">Resources</a></li>
+                        <li class="nav-list"><a href="./events.html" data-descr="Events">Events</a></li>
+                        <li class="nav-list"><a href="./404.html" data-descr="Contact">Contact</a></li>
+                        <button class="primary-button">Donate</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="hero-section" style="background-image: url('./images/hero-bg.png');">
+            <div class="inline-section">
+                <div class="hero-content-container">
+                    <h1 class="KO">We build thriving communities by helping nonprofits succeed</h1>
+                    <div>
+                        <button class="primary-button">Browse Resources</button>
+                        <button class="ghosted-button">Donate</button>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <section>
+            <div class="upcoming-events">
+                <h3>Upcoming events</h3>
+                <div class="dividing-stroke"></div>
+                <div class="upcoming-event-wrapper">
+                    <img src="./images/govt-funding-thumbnail.png">
+                    <div class="upcoming-event-details">
+                        May 04 2022 | Online Course
+                        <h5>Intro to Government Funding</h5>
+                    </div>
+                </div>
+                <div class="dividing-stroke"></div>
+                <div class="upcoming-event-wrapper">
+                    <img src="./images/donor-fund-thumbnail.png">
+                    <div class="upcoming-event-details">
+                        May 05 2022 | Online Course
+                        <h5>Donor Advised Funds</h5>
+                    </div>
+                </div>
+                <div class="dividing-stroke"></div>
+                <div class="upcoming-event-wrapper">
+                    <img src="./images/roundtable-thumbnail.png">
+                    <div class="upcoming-event-details">
+                        May 07 2022 | Online Meeting
+                        <h5>Member only | CEO Roundtable</h5>
+                    </div>
+                </div>
+                <div class="dividing-stroke"></div>
+                <button class="primary-button" style="width: 100%;">View all events</button>
+                <div class="dividing-stroke invisible"></div>
+                <div class="subscribe-wrapper">
+                    <h4 style="width:250px">Subscribe to more events and resources:</h4>
+                    <form style="display: inline-block; margin-top: 0.4em;">
+                        <input class="text-input" type="text" id="email" placeholder="Enter your email address">
+                        <input class="submit-button" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="resources">
+            <div class="inline-section padded">
+                <h2>Resources to help your nonprofit succeed</h2>
+                <div class="resource-wrapper">
+                    <a class="resource-tile" style="background-image: url(./images/COVID-thumbnail.png);">
+                        <h5 class="KO">COVID-19 Resources</h5>
+                    </a>
+                    <a class="resource-tile" style="background-image: url(./images/DEI-thumbnail.png);">
+                        <h5 class="KO">DEI Resources</h5>
+                    </a>
+                    <a class="resource-tile" style="background-image: url(./images/Books-thumbnail.png);">
+                        <h5 class="KO">Nonprofit University</h5>
+                    </a>
+                    <a class="resource-tile" style="background-image: url(./images/Consulting-thumbnail.png);">
+                        <h5 class="KO">Consulting Groups</h5>
+                    </a>
+                    <a class="resource-tile" style="background-image: url(./images/Community-thumbnail.png);">
+                        <h5 class="KO">Nonprofit Marketplace</h5>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="news">
+            <div class="inline-section padded">
+                <h2>Latest News</h2>
+                <div class="news-wrapper">
+                    <div id = "news1">
+                        <div class="top-bar" style=""></div>
+                        <div class="news-with-img-wrapper">
+                            <img src="images/funding-opportunities-thumbnail.jpeg">
+                            <div class="news-content-wrapper">
+                                <h5>Funding Opportunities | April 2022</h5>
+                                <span class="label lightened">May 03 2022</span><br>
+                                Grants supporting grassroots justice efforts, work with grieving children, economic development in Native communities, operating a Theater of Color, STEM education, animal rescue, voter engagement, and much more.
+                            </div>
+                        </div>
+                    </div>
+                    <div id = "news2">
+                        <div class="top-bar" style=""></div>
+                        <div class="news-content-wrapper">
+                            <h5>Georgia Nonprofit NEWS</h5>
+                            <span class="label lightened">May 03 2022</span><br>
+                            The latest from our members and partners, featuring impact, achievements, and professional moves at Georgia Organics, Buy From a Black Woman, Trees Atlanta, Out of Hand Theater, HomeAid Atlanta, Rainbow Village, Big Brothers Big Sisters of Metro Atlanta, and many more.
+                        </div>
+                    </div>
+                    <div id = "news3">
+                        <div class="top-bar" style=""></div>
+                        <div class="news-content-wrapper">
+                            <h5>PPE Bank Supplies Nonprofits Statewide with Free Equipment</h5>
+                            <span class="label lightened">May 02 2022</span><br>
+                            GCN and three other Georgia-based nonprofits have teamed up to establish the Nonprofit PPE Bank, filling nonprofit organizations’ critical need for personal protective equipment (PPE) free of charge. Find out how you can take advantage!
+                        </div>
+                    </div>
+                    <div id = "news4">
+                        <div class="top-bar" style=""></div>
+                        <div class="news-content-wrapper">
+                            <h5>How (and why!) nonprofits can Get Out the Vote</h5>
+                            <span class="label lightened">Apr 28 2022</span><br>
+                            Dad’s Garage Theatre Managing Director Lara Smith contributed this new essay about the arts organization’s Get Out the Vote efforts, and what makes nonprofits especially suited to the work of advancing civic engagement.
+                        </div>
+                    </div>
+                    <div id = "news5">
+                        <div class="top-bar" style=""></div>
+                        <div class="news-content-wrapper">
+                            <h5>PWebinar replay for Peer to Peer Fundraising</h5>
+                            <span class="label lightened">Apr 26 2022</span><br>
+                            Find out to equip your board, leaders, and other stakeholders to utilize this powerful fundraising technique in preparation for any important campaign. 
+                        </div>
+                    </div>
+                    <div id = "news6">
+                        <div class="top-bar" style=""></div>
+                        <div class="news-with-img-wrapper">
+                            <img src="images/welcome katie-moum.jpeg">
+                            <div class="news-content-wrapper">
+                                <h5>Video recap: Strategies for eliminating bias</h5>
+                                <span class="label lightened">Apr 20 2022</span><br>
+                                If nonprofits really want to be part of the solution, we must first understand, confront, and overcome our own unconscious bias. To help you get started, check this review of the recent Nonprofit University course led by Tiffany Simpson-Crumpley.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </body>
+    
+    <footer>
+        <ul class="footer-wrapper">
+            <li><a href="./index.html"><img src="images/logo.png" alt="Logo of Georgia Center for Nonprofits" style="width:19rem"></a> </li>
+            <li>
+                <ul>
+                    <li class="footer-header">About Us</li>
+                    <li>Mission</li>
+                    <li>Leadership</li>
+                    <li>Staff Directory</li>
+                    <li>Become a Member</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li class="footer-header">Resources</li>
+                    <li>Pandemic Response</li>
+                    <li>DEI Resources</li>
+                    <li>Nonprofit University</li>
+                    <li>Consulting Groups</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li class="footer-header">Events</li>
+                    <li>Online Courses</li>
+                    <li>Community Meetings</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li class="footer-header">Contact</li>
+                    <li>Get Directions</li>
+                    <li>Send Us a Message</li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+</html>
